@@ -6,8 +6,8 @@ Multi Person Pose &amp; Instance Segmentation
 # Data Preparation
 COCO contains highest bias where only one individual exist in a picture as shown in Figure 1. We perform 30% random data reduction in first iteration and 10% on next 5 iterations on bias class and store the result file on each iteration, Figure 2 shows the bias reduction on each iteration.
 
-<img src="Results/COCO.Orig.png" width="500" height="600">
-<img src="Results/COCO_reduce.png" width="500" height="600">
+<img src="Results/COCO.Orig.png" width="50" height="60">
+<img src="Results/COCO_reduce.png" width="200" height="150">
 
 # Environmental Setup
 
