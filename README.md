@@ -11,14 +11,14 @@ COCO contains highest bias where only one individual exist in a picture as shown
     <img src="Results/COCO_Orig.png" width="350" height="240">
 </p>
 <p>
-    <em>Figure 1</em>
+    <em>Figure 1: Orignal COCO dataset with bias</em>
 </p>
 
 <p>
     <img src="Results/COCO_reduce.png" width="550" height="350">
 </p>
 <p>
-    <em>Figure 2</em>
+    <em>Figure 2: COCO dataset with bias reduce in iterations of 10% recuction start form 30% to 80%</em>
 </p>
 
 
