@@ -24,9 +24,12 @@ COCO contains highest bias where only one individual exist in a picture as shown
 ### Reduce Bias Datasets are avilable in COCO formate:
 
 
-- [COCO datset with 30% reduce bias](http://images.cocodataset.org/zips/train2017.zip)
-
-
+- [COCO datset with 30% reduce bias](https://drive.google.com/file/d/1EZBL-zyH_qgtXDjJUcIKdBO1bqOdZjUp/view?usp=sharing)
+- [COCO datset with 40% reduce bias](https://drive.google.com/file/d/1TM1NQpjzdChppZVS9qBUTLr5HZtYHPgj/view?usp=sharing)
+- [COCO datset with 50% reduce bias](https://drive.google.com/file/d/14FXjLsmW56BK0k23uQy3ZjC9vy_aXXjV/view?usp=sharing)
+- [COCO datset with 60% reduce bias](https://drive.google.com/file/d/1f5CrRHeJVPeFO2Sgf8hCV2qMPritG-AS/view?usp=sharing)
+- [COCO datset with 70% reduce bias](https://drive.google.com/file/d/15WixdsWEfH-UfRkcODowwhuekKKqwF7f/view?usp=sharing)
+- [COCO datset with 80% reduce bias](https://drive.google.com/file/d/1q6ejDRVkEFurP89nFNq0gxtwRWKzawwd/view?usp=sharing)
 # Environmental Setup:
 
 ```
