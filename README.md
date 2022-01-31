@@ -15,6 +15,9 @@ COCO contains highest bias where only one individual exist in a picture as shown
     <em>Figure 1</em>
 </p>
 
+![]("Results/COCO_Orig.png")
+*image_caption*
+
 # Environmental Setup
 
 ```
