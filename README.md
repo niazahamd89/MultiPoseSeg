@@ -1,5 +1,5 @@
 # MultiPoseSeg
-Multiper Person Pose &amp; Instance Segmentation
+Multi Person Pose &amp; Instance Segmentation
 
 # Model Architecture 
 ![](demo_result/0001.png)
