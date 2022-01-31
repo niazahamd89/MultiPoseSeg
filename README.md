@@ -5,7 +5,7 @@ Pose &amp; Instance Segmentation
 ![](demo_result/0001.png)
 # Data Preparation
 
-# Setup environment
+# Environmental Setup
 
 ```
 - python==3.6
