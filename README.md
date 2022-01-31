@@ -21,7 +21,7 @@ COCO contains highest bias where only one individual exist in a picture as shown
     <em>Figure 2: COCO dataset with bias reduction start form 30% to 80%</em>
 </p>
 
-### Reduce Bias Datasets are avialbe
+### Reduce Bias Datasets are avilable in COCO formate
 
 # Environmental Setup
 
