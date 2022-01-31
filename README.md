@@ -18,7 +18,7 @@ COCO contains highest bias where only one individual exist in a picture as shown
     <img src="Results/COCO_reduce.png" width="550" height="350">
 </p>
 <p>
-    <em>Figure 2: COCO dataset with bias reduce in iterations of 10% recuction start form 30% to 80%</em>
+    <em>Figure 2: COCO dataset with bias reduction start form 30% to 80%</em>
 </p>
 
 
