@@ -15,6 +15,14 @@ COCO contains highest bias where only one individual exist in a picture as shown
     <em>Figure 1</em>
 </p>
 
+<p>
+    <img src="Results/COCO_reduce.png" width="550" height="350">
+</p>
+<p>
+    <em>Figure 2</em>
+</p>
+
+
 # Environmental Setup
 
 ```
