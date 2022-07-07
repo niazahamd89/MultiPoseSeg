@@ -1,24 +1,27 @@
-# MultiPoseSeg:
-Multi Person Pose &amp; Instance Segmentation (datasets and complete code will be availbe soon..)
+# MultiPoseSeg:Feedback Knowledge Transfer for Multi-Person Pose Estimation and Instance Segmentation
+Multi Person Pose &amp; Instance Segmentation
 
 # Model Architecture:
-![](demo_result/0001.png)
+<p align="center">
+<img src="Results/MultiPoseSeg.png" width="1000" height="310">
+</p>
+
 # Data Preparation:
 COCO contains highest bias where only one individual exist in a picture as shown in Figure 1. We perform 30% random data reduction in first iteration and 10% on next 5 iterations on bias class and store the result file on each iteration, Figure 2 shows the bias reduction on each iteration.
 
 
-<p>
+<p align="center">
     <img src="Results/COCO_Orig.png" width="350" height="240">
 </p>
-<p>
-    <em>Figure 1: Orignal COCO dataset with bias</em>
+<p align="center">
+    <em>Figure 1: Unbalanced portions of different number of individuals(1 to 13) in COCO dataset where single-person accounts 48%whereas multi-person more than 5 accounts only 1%</em>
 </p>
 
-<p>
+<p align="center">
     <img src="Results/COCO_reduce.png" width="550" height="350">
 </p>
-<p>
-    <em>Figure 2: COCO dataset with bias reduction start form 30% to 80%</em>
+<p align="center">
+    <em>Figure 2: Bias  reduction  in  COCO  data  set  for  model  trainingto focus on crowded and challenging scenarios. We start from30%(a) reduction in bias and with increase of 10% we reducebias 40%(b) in the next iteration and so on upto 80%(f)</em>
 </p>
 
 ### Reduce Bias Datasets are avilable in COCO formate:
@@ -41,7 +44,7 @@ COCO contains highest bias where only one individual exist in a picture as shown
 - conda install tensorflow-gpu==1.13.1
 ```
 
-**Recomendation:** tensorflow 1.13 & coda 10.
+**Recomendation:** tensorflow 1.13, coda 10,& GPU TITAN RTX.  
 
 # Download data:
 
@@ -54,7 +57,7 @@ COCO contains highest bias where only one individual exist in a picture as shown
 
 #### Hint: 
 
-Person keypoint dataset is a subset of COCO2017 dataset ([COCO 2017 Train images 118K/18GB](http://images.cocodataset.org/annotations/annotations_trainval2017.zip)). We train our model only on human instances key points and segmentation by introducing a multi task system. 
+Person keypoint dataset is a subset of COCO2017 dataset ([COCO 2017 Train images 118K/18GB](http://images.cocodataset.org/annotations/annotations_trainval2017.zip)). We train **MultiPoseSeg** on human keypoints and segmentation to introducing a new multi-task system. 
 
 
 # Setup data:
@@ -85,15 +88,19 @@ The `coco2017` folder should be like this:
 
 Please lookout the `PosePlusSeg_Test` folder for testing the model. 
 
-# Visualize Results:
+# Visual Results:
 
 #### Human Pose Estimation:
-<img src="demo_result/pose.png" width="500" height="600">
+<p align="center">
+<img src="Results/pose.png" width="500" height="600">
+</p>
 
 #### Human Instance Segmentation:
-
-<img src="demo_result/seg.png" width="500" height="600">
+<p align="center">
+<img src="Results/seg.png" width="500" height="600">
+</p>
 
 #### Joint Human Pose Estimation and Instance Segmentation:
-
-<img src="demo_result/PosePlusSeg.png" width="500" height="600">
+<p align="center">
+<img src="Results/PosePlusSeg.png" width="500" height="600">
+</p>
