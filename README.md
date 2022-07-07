@@ -1,4 +1,4 @@
-# MultiPoseSeg:Feedback Knowledge Transfer for Multi-Person Pose Estimation and Instance Segmentation
+# MultiPoseSeg:Feedback Knowledge Transfer for Multi-Person Pose Estimation and Instance Segmentation (ICPR 2022)
 Multi Person Pose &amp; Instance Segmentation
 
 # Model Architecture:
